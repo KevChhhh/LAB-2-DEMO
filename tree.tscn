@@ -1,0 +1,26 @@
+[gd_scene load_steps=2 format=3 uid="uid://0xqq055d7evv"]
+
+[ext_resource type="Script" path="res://tree.gd" id="1_yvqp7"]
+
+[node name="treescene" type="Node2D"]
+position = Vector2(296, 308)
+scale = Vector2(1.92, 1.92)
+script = ExtResource("1_yvqp7")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_left = 0.520833
+offset_top = -33.8542
+offset_right = 17.5208
+offset_bottom = 4.14583
+scale = Vector2(1.92, 1.92)
+color = Color(0.462745, 0.317647, 0.345098, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect2" type="ColorRect" parent="."]
+offset_left = -21.0
+offset_top = -57.0
+offset_right = 18.0
+offset_bottom = -33.0
+scale = Vector2(1.92, 1.92)
+color = Color(0.278431, 1, 0.2, 1)
+metadata/_edit_use_anchors_ = true
