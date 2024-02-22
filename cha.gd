@@ -11,11 +11,15 @@ func _ready():
 
 
 var x = 1
-
+@export var speed = 5
 # Called every frame. 
 func _process(delta):
-	print(x)
-	x = x + 1
-	position.x = position.x + 1 
-	position.y = position.y + 5 
+	if Input.is_action_pressed('move_up'):
+		position.y -= speed
+	if Input.is_action_pressed('move_down'):
+		position.y -= speed
+	if Input.is_action_pressed('move_up'):
+		position.y -= speed
+	if Input.is_action_pressed('move_up'):
+		position.y -= speed
 	pass

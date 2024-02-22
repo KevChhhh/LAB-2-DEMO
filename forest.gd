@@ -3,7 +3,7 @@ extends Node2D
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	tree = get_node()
+#	tree = get_node()
 	pass # Replace with function body.
 
 
